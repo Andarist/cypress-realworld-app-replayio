@@ -55,7 +55,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - run: apt install xz-utils -y
+      - run: sudo apt install xz-utils -y
 
       - name: Download the build folders
         uses: actions/download-artifact@v4
