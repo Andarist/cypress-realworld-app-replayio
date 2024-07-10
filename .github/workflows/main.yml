@@ -24,4 +24,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - run: apt update && apt install -y xz-utils
+      - run: apt install -y xz-utils
